@@ -16,15 +16,16 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/tv_result"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/simple_calculator"
             android:gravity="center"
+            android:text="@string/simple_calculator"
             android:textColor="@color/black"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
 
         <TextView
+            android:id="@+id/tv_result"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lines="3"

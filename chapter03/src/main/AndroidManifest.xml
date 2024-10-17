@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.My_Java_Application">
         <activity
-            android:name=".ButtonClickActivity"
+            android:name=".CacluatorActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -31,3 +31,4 @@ rootProject.name = "My_Java_Application"
 include(":app")
 include(":chapter03")
 include(":bitechtest")
+include(":chapter04")

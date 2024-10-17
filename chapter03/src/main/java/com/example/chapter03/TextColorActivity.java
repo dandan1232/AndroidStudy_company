@@ -28,6 +28,7 @@ public class TextColorActivity extends AppCompatActivity {
         //将tv_code_eight设置成不透明的的绿色
         tv_code_eight.setTextColor(0xff00ff00);
 
+
         //布局文件中获取名叫tv_code_six的文本视图
         TextView tv_code_six=findViewById(R.id.tv_code_six);
         //将tv_code_six设置成透明的绿色，就是看不到的绿色
