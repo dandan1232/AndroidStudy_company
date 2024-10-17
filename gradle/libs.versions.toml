@@ -11,6 +11,7 @@ tflite = "2.10.0"
 onnxruntime = "1.8.0"
 okhttp = "4.9.1"
 retrofit = "2.9.0"
+filamentAndroid = "1.17.1"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -24,6 +25,7 @@ tflite = { group = "org.tensorflow", name = "tensorflow-lite", version.ref = "tf
 onnxruntime = { group = "com.microsoft.onnxruntime", name = "onnxruntime-android", version.ref = "onnxruntime" }
 okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+filament-android = { group = "com.google.ar.sceneform", name = "filament-android", version.ref = "filamentAndroid" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
