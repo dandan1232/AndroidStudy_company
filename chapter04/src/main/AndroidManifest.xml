@@ -9,6 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.My_Java_Application">
         <activity
+            android:name=".ActionUriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActReceiveActivity"
+            android:exported="false" />
+        <activity
             android:name=".ActStartActivity"
             android:exported="false" />
         <activity
@@ -18,7 +24,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".ActionUriActivity"
+            android:name=".ActSendActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
