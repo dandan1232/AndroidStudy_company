@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.My_Java_Application">
         <activity
+            android:name=".ActRequestActivity"
+            android:exported="false" />
+        <activity
             android:name=".ActResponseActivity"
             android:exported="false" />
         <activity
@@ -30,7 +33,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".ActRequestActivity"
+            android:name=".ReadStringActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
