@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.My_Java_Application">
         <activity
+            android:name=".ReadStringActivity"
+            android:exported="false" />
+        <activity
             android:name=".ActRequestActivity"
             android:exported="false" />
         <activity
@@ -33,13 +36,17 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".ReadStringActivity"
-            android:exported="true">
+            android:name=".MetaDataActivity"
+            android:exported="true"
+            android:launchMode="standard">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data android:name="city" android:value="安徽"/>
+            <meta-data android:name="weather" android:value="下雨天"/>
         </activity>
     </application>
 
