@@ -9,13 +9,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.My_Java_Application">
         <activity
+            android:name=".DrawableNineActivity"
+            android:exported="false" />
+        <activity
             android:name=".DrawableShapeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".DrawableNineActivity"
+            android:name=".DrawableStateActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

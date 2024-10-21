@@ -11,13 +11,15 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/drawing_nine"
+        android:background="@drawable/drawing"
         android:text="普通图片背景"/>
 
+    <!-- 应该是.9图片，android:background="@drawable/drawing_nine"
+    但是报错了，所以我决定改掉，不然程序不能正常运行了，.9图片要为png后缀格式，右键有一个create nine xxxx-->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/drawing_nine"
+        android:background="@drawable/drawing2"
         android:layout_marginTop="10dp"
         android:text="普通图片背景"/>
 
