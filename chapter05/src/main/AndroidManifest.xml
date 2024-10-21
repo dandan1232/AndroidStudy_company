@@ -9,6 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.My_Java_Application">
         <activity
+            android:name=".SwitchDefaultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxActivity"
+            android:exported="false" />
+        <activity
             android:name=".DrawableStateActivity"
             android:exported="false" />
         <activity
@@ -21,7 +27,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".CheckBoxActivity"
+            android:name=".SwitchIOSActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

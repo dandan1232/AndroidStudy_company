@@ -65,6 +65,14 @@
       </SelectionState>
       <SelectionState runConfigName="chapter05">
         <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2024-10-21T08:09:08.828224300Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=E:\Android\.android\.android\avd\Pixel_2_API_30_1.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
       </SelectionState>
     </selectionStates>
   </component>
