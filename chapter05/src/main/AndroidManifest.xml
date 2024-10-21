@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.My_Java_Application">
         <activity
+            android:name=".SwitchIOSActivity"
+            android:exported="false" />
+        <activity
             android:name=".SwitchDefaultActivity"
             android:exported="false" />
         <activity
@@ -27,7 +30,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".SwitchIOSActivity"
+            android:name=".RadioHorizontalActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
