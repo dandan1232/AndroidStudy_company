@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">chapter04</string>
     <string name="weather_str">晴天</string>
+    <string name="first_short_label">first</string>
+    <string name="first_long_label">启停活动</string>
+    <string name="second_short_label">second</string>
+    <string name="second_long_label">来回跳转</string>
+    <string name="third_short_label">third</string>
+    <string name="third_long_label">登录返回</string>
 </resources>

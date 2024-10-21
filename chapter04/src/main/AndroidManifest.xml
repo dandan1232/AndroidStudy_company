@@ -10,7 +10,7 @@
         android:theme="@style/Theme.My_Java_Application">
         <activity
             android:name=".ReadStringActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ActRequestActivity"
             android:exported="false" />
@@ -22,12 +22,9 @@
             android:exported="false" />
         <activity
             android:name=".ActionUriActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ActReceiveActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ActStartActivity"
             android:exported="false" />
         <activity
             android:name=".ActFinshActivity"
@@ -40,14 +37,29 @@
             android:exported="true"
             android:launchMode="standard">
 
+
+            <meta-data
+                android:name="city"
+                android:value="安徽" />
+            <meta-data
+                android:name="weather"
+                android:value="下雨天" />
+        </activity>
+
+
+        <activity
+            android:name=".ActStartActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <meta-data android:name="city" android:value="安徽"/>
-            <meta-data android:name="weather" android:value="下雨天"/>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
         </activity>
+
     </application>
 
 </manifest>

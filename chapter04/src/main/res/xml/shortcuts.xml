@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="first">
+        android:shortcutShortLabel="@strings/first_short_label"
+        android:shortcutLongLabel="@strings/first_long_label">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.bitech.chapter04.ActStartActivity"
+            android:targetPackage="com.bitech.chapter04" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="second">
+        android:shortcutShortLabel="@strings/second_short_label"
+        android:shortcutLongLabel="@strings/second_long_label">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.bitech.chapter04.ReadStringActivity"
+            android:targetPackage="com.bitech.chapter04" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="third">
+        android:shortcutShortLabel="@strings/third_short_label"
+        android:shortcutLongLabel="@strings/third_long_label">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.bitech.chapter04.ActionUriActivity"
+            android:targetPackage="com.bitech.chapter04" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>
