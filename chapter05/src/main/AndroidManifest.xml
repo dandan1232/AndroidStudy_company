@@ -9,6 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.My_Java_Application">
         <activity
+            android:name=".LoginForgetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimePickerActivity"
+            android:exported="false" />
+        <activity
             android:name=".DatePickerActivity"
             android:exported="false" />
         <activity
@@ -51,7 +57,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".TimePickerActivity"
+            android:name=".LoginMainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
