@@ -97,6 +97,8 @@ public class UserDBHelper extends SQLiteOpenHelper {
         // 如果第三个参数values 不为Null并且元素的个数大于0 ，可以把第二个参数设置为null 。
         //return mWDB.insert(TABLE_NAME, null, values);
 
+
+        //事务处理
         try {
             mWDB.beginTransaction();
             mWDB.insert(TABLE_NAME, null, values);
