@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.My_Java_Application">
         <activity
+            android:name=".DatebaseActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginMainActivity"
             android:exported="false" />
         <activity
@@ -21,7 +24,7 @@
             android:name=".ShareWriteActivity"
             android:exported="false" />
         <activity
-            android:name=".DatebaseActivity"
+            android:name=".SQLiteHelperActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
