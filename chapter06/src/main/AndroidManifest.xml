@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.My_Java_Application">
         <activity
+            android:name=".MyApplication"
+            android:exported="false" />
+        <activity
             android:name=".FileWriteActivity"
             android:exported="false" />
         <activity
