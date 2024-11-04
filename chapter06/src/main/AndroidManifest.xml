@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.My_Java_Application">
         <activity
+            android:name=".ImageWriteActivity"
+            android:exported="false" />
+        <activity
             android:name=".MyApplication"
             android:exported="false" />
         <activity
@@ -40,7 +43,7 @@
             android:name=".ShareWriteActivity"
             android:exported="false" />
         <activity
-            android:name=".ImageWriteActivity"
+            android:name=".AppWriteActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
