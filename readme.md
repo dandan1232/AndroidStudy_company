@@ -8,4 +8,5 @@ https://www.bilibili.com/video/BV19U4y1R7zV?spm_id_from=333.788.player.switch&vd
 完整代码在这里：https://github.com/dandan1232/AndroidStudy_done   
 
     
-ps：当然知道没有人看 所以 是感谢自己
+ps：当然知道没有人看 所以 是感谢自己跟着敲了83集代码的自己     
+剩下零碎知识点也会完成
