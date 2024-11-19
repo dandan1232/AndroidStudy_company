@@ -1,23 +1,19 @@
 plugins {
     alias(libs.plugins.android.application)
-
-    id("kotlin-android")
-    id("kotlin-kapt")
 }
 
 android {
-    namespace = "com.bitech.chapter06"
+    namespace = "com.java.chapter07_client"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.bitech.chapter06"
+        applicationId = "com.java.chapter07_client"
         minSdk = 30
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -44,7 +40,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    implementation("androidx.room:room-runtime:2.2.5")
-    kapt("androidx.room:room-compiler:2.2.5")
-
 }

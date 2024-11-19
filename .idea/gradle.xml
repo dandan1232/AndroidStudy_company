@@ -15,6 +15,8 @@
             <option value="$PROJECT_DIR$/chapter04" />
             <option value="$PROJECT_DIR$/chapter05" />
             <option value="$PROJECT_DIR$/chapter06" />
+            <option value="$PROJECT_DIR$/chapter07-client" />
+            <option value="$PROJECT_DIR$/chapter07-server" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
